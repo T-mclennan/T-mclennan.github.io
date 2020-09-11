@@ -18,6 +18,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>Tristan's Portfolio</title>
   </head>
   <body>
@@ -58,12 +61,14 @@
       <!--===== HOME =====-->
       <section class="home bd-grid" id="home">
         <div class="home__data">
-          <h1 class="home__title">
+          <h1 class="home__title load-hidden">
             Hi,<br />I'm <span class="home__title-color">Tristan</span><br />
           </h1>
-          <h2 class="about__subtitle">Junior full-stack developer</h2>
+          <h2 class="about__subtitle load-hidden">
+            Junior full-stack developer
+          </h2>
 
-          <a href="#contact" class="button">Contact</a>
+          <a href="#contact" class="button load-hidden">Contact</a>
         </div>
 
         <div class="home__social">
@@ -71,27 +76,26 @@
             href="https://www.linkedin.com/in/t-mclennan/"
             target="”_blank”"
             rel="noopener"
-            class="home__social-icon"
+            class="home__social-icon load-hidden"
             ><i class="bx bxl-linkedin"></i
           ></a>
           <a
             href="https://www.facebook.com/tristan.mclennan.1"
-            class="home__social-icon"
+            class="home__social-icon load-hidden"
             target="”_blank”"
             rel="noopener"
             ><i class="bx bxl-facebook"></i
           ></a>
           <a
             href="https://github.com/T-mclennan"
-            class="home__social-icon"
+            class="home__social-icon load-hidden"
             target="”_blank”"
             rel="noopener"
             ><i class="bx bxl-github"></i
           ></a>
         </div>
 
-        <div class="home__img">
-          <!-- <img class="headshot" src="/img/headshot.jpeg" alt="" /> -->
+        <div class="home__img load-hidden">
           <img src="/img/headshot3.png" alt="" />
         </div>
       </section>
@@ -287,12 +291,6 @@
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
-          <!-- <form
-            role="form"
-            action="https://formspree.io/xwkrzwjr"
-            method="POST"
-            class="contact__form"
-          > -->
           <form
             action="https://formspree.io/mgengbob"
             method="POST"
@@ -351,9 +349,6 @@
       </div>
       <p>&#169; 2020 copyright all right reserved</p>
     </footer>
-
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--===== MAIN JS =====-->
     <script src="js/main.js"></script>
