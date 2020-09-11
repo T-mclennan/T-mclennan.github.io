@@ -9,6 +9,7 @@
 /*===== Colores =====*/
 :root {
   --first-color: rgb(163, 31, 73);
+  --highlight-color: rgb(90, 13, 37);
   --second-color: #0e2431;
 }
 
@@ -225,7 +226,7 @@ img {
 .home__img {
   position: absolute;
   right: 2em;
-  bottom: 6em;
+  bottom: 5.5em;
   width: 295px;
 }
 
@@ -285,6 +286,7 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+
 .skills__names {
   display: flex;
   align-items: center;
@@ -298,18 +300,31 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
-  width: 95%;
+.skills__react {
+  width: 85%;
+}
+.skills__python {
+  width: 80%;
 }
 .skills__css {
-  width: 85%;
+  width: 80%;
+}
+.skills__java {
+  width: 75%;
+}
+.skills__aws {
+  width: 70%;
 }
 .skills__js {
-  width: 65%;
-}
-.skills__ux {
   width: 85%;
 }
+.skills__node {
+  width: 80%;
+}
+.skills__database {
+  width: 75%;
+}
+
 .skills__img {
   border-radius: 0.5rem;
 }
