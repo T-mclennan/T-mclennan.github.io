@@ -13,7 +13,7 @@
   --second-color: #0e2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Font and Topography =====*/
 :root {
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -28,7 +28,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root {
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -342,12 +342,27 @@ html.sr .load-hidden {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .work__img img {
   transition: 1s;
   cursor: pointer;
 }
 .work__img img:hover {
   transform: scale(1.1);
+}
+
+.work--label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0e2431;
+  opacity: 0.85;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: whitesmoke;
+  text-align: center;
+  z-index: var(--z-tooltip);
 }
 
 /* ===== CONTACT =====*/
